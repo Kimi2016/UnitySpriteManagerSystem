@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sprites>
+
+	<!-->
+	Modelo do .XML holder de dados de sprites - Observações:
+	Os nomes de rects (que são opcionais) de um mesmo sprite não podem ser iguais.
+	Sprites com nomes iguais também não são permitidos.
+	<!-->
+	
+	<sprite name="SpriteDemo">
+		<rect name="primeiroFrame">2,2,128,128</rect>
+		<rect>132,2,128,128</rect>
+		<rect>262,2,128,128</rect>
+		<rect>2,132,128,128</rect>
+		<rect>132,132,128,128</rect>
+		<rect>262,132,128,128</rect>
+		<rect>2,262,128,128</rect>
+		<rect>132,262,128,128</rect>
+    <rect name="vazio">400,400,1,1</rect>
+	</sprite>
+</sprites>
